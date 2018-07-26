@@ -1,0 +1,108 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+*:focus {outline:none}
+
+ul {
+  margin-bottom:1.5em
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+.ui.grid>.compact.column {
+  padding: 5px;
+}
+
+div.compact {
+  padding: 0;
+}
+
+div.sticky-table {
+  border: 2px solid #e5e5e5;
+}
+
+
+/* scrollbar hiding */
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px;  /* remove scrollbar space */
+  background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+
+/*table */
+
+div.border-right {
+  border-right: 2px solid #e5e5e5;
+}
+
+div.border-bottom {
+  border-bottom: 2px solid #e5e5e5;
+}
+
+div.sticky-table {
+  border: 2px solid #e5e5e5;
+}
+
+div.label {
+  min-width: 100px;
+  padding: 4px;
+  background: rgb(245, 245, 245);
+}
+
+div.space{
+  background-image: url("../photoAssets/stripe.png") !important;
+}
+
+div.head{
+  height: 25px;
+  padding: 5px;
+  text-align: center;
+  background: rgb(245, 245, 245);
+  font-weight: bolder;
+}
+
+.main-grid-item {
+  background-color: rgb(255, 255, 255);
+  padding: 4px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .ui.stackable.buttons{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .ui.stackable.buttons > .button{
+    width: 100%;
+  }
+}
+
+.ui.menu.fixed {
+  z-index: 1001;
+}
+
+.slick-prev:before {
+  color: gray;
+}
+.slick-next:before {
+  color: gray;
+}
+
+div.item.non-inherited-border-less:before {
+  width: 0 !important;
+}

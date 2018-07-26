@@ -1,0 +1,44 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+#React#
+
+# dependencies
+osp_client/node_modules
+
+# testing
+osp_client/coverage
+
+# production
+osp_client/build
+
+osp_client/npm-debug.log*
+osp_client/osp_client/yarn-debug.log*
+yarn-error.log*
+
+
+
+#Rails#
+
+# Ignore bundler config.
+osp/.bundle
+
+# Ignore all logfiles and tempfiles.
+osp/log/*
+osp/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+.byebug_history
+
+
+# csv files
+osp/csv\ files/*
+osp/csv/*
+
+
+#misc#
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
