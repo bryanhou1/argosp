@@ -8,7 +8,7 @@ A working [live demo](https://args-osp.herokuapp.com) is hosted on heroku.
 
 The app is composed of a react-redux frontend styled with semantic-ui-react and rails 5 api with mysql database.
 
-##Current Version
+## Current Version
 1.0
 
 
