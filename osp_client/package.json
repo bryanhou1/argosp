@@ -4,12 +4,10 @@
   "homepage": "/args-osp",
   "private": true,
   "dependencies": {
-    "autosuggest-trie": "^2.1.1",
     "axios": "^0.17.1",
     "match-sorter": "^2.2.3",
     "npm": "^5.10.0",
     "react": "^16.4.1",
-    "react-actioncable-provider": "^1.0.3",
     "react-autocomplete": "^1.8.1",
     "react-browser-detection": "^1.1.1",
     "react-csv": "^1.0.14",
@@ -29,7 +27,6 @@
     "semantic-ui-css": "^2.3.2",
     "semantic-ui-react": "^0.79.1",
     "slick-carousel": "^1.8.1",
-    "trie-prefix-tree": "^1.5.0",
     "update": "^0.7.4"
   },
   "scripts": {
